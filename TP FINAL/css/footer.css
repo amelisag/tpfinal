@@ -1,0 +1,46 @@
+footer{
+	background: #707070;
+	width:100%;
+	overflow: auto;
+}
+
+.social{
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+}
+.social i{
+font-size: 400%;
+margin: 1%;
+padding: 5%;
+color: #fff;
+}
+
+.social i:hover{
+	color: #01579B;
+}
+
+.second-footer{
+	border-top: 1px solid  #ffff;
+	text-align: center;
+	margin: 0;
+}
+
+.second-footer p,.second-footer {
+	text-align: center;
+	color: #fff;
+}
+@media screen and (max-width: 768px) {
+   
+    .icon-text-icon{
+        width: 100%;
+        padding: 0 0 2% 0;
+    }
+    .icon-text-text{
+        width: 100%;
+        padding: 2% 0 0 0;
+        font-size: 80%;
+    }
+}

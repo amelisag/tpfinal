@@ -1,0 +1,100 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">);
+
+.one-third{
+	width: 31.5%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+.icon-wrap{
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+	background-color: #2897D4;
+	border-radius: 125px;
+	text-align: center;
+	margin-top: 3%;
+}
+.icon-wrap i{
+	text-align: center;
+	color: #fff;
+	font-size: 450%;
+	padding: 20%;
+}
+
+.icon-wrap i:hover{
+	color: #01579B;
+	cursor: pointer;
+}
+h3:hover{
+	color: #01579B;
+	cursor: pointer;
+}
+
+.left-col{
+	float: left;
+	margin-top: 0 auto;
+	width: 60%;
+	height: auto;
+	padding: 1%;
+}
+.sidebar{
+	float: right;
+	margin: 0 auto;
+	width: 5%;
+	height: auto;
+	padding: 1%; 
+}
+.one-third-padding{
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+}
+
+.clearfix-padding{
+	clear: both;
+	padding: 2%;
+}
+@media screen and (max-width: 768px) {
+    p{
+        font-size: 10px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    .one-third{
+        float: left;
+        width: 100%;
+    }
+    .icon-wrap{
+        height: 88px;
+        width: 88px;
+        margin-top: 3%;
+    }
+    .icon-wrap i{
+        font-size: 250%;
+        padding: 27%;
+    }
+    .left-col{
+        width: 100%;
+        padding: 0;
+    }
+    .sildebar{
+        width: 100%
+    }
+    .one-third-padding{
+        width: 98%;
+        margin-top: 0;
+        padding: 1%;
+    }
+    .icon-text-icon{
+        width: 100%;
+        padding: 0 0 2% 0;
+    }
+    .icon-text-text{
+        width: 100%;
+        padding: 2% 0 0 0;
+        font-size: 80%;
+    }
+}

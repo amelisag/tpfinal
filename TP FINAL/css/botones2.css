@@ -1,0 +1,52 @@
+@import url(<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">);
+
+#section-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+#section-1 article{
+    width: 33%;
+}
+section .container {
+    text-align: center;
+    min-height: 300px;
+}
+.container2{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+section h2 {
+    position: relative;
+    top: 110px;
+}
+h3{
+	font-size: 25px;
+	color: #707070;
+
+}
+
+.container-1 {
+    position: relative;
+}
+.separador{
+    height: 30px;
+}
+@media screen and (max-width: 768px) {
+    p{
+        font-size: 10px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    .section-1{
+        float: left;
+        width: 100%;
+    }
+    .section-1 article{
+        height: 88px;
+        width: 88px;
+        margin-top: 3%;
+    }
+}
